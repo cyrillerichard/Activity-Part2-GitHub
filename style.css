@@ -1,4 +1,4 @@
-/* Définition d'une nouvelle police*/
+
 @font-face
 { 
     font-family: 'cac_champagneregular';
@@ -9,15 +9,15 @@
          url('polices/cac_champagne-webfont.svg#cac_champagneregular') format('svg');
 }
 
-/* Application d'une image de fond*/
 body
 {
-	background-image: url("images/fond2.jpg");
+	text-align: center;
+	background-image: url("images/fond.jpg");
 }
-.liseret
+
+section
 {
-	width: 70px;
-	height: 310px;
+	display: flex;
 }
 
 h1
@@ -34,12 +34,15 @@ h2
 	box-shadow: 6px 6px 0px black;
 }
 
-p
+ul
 {
-	text-align: center;
-	font-size: 1.2em;
-	font-weight: bold;
-	
+	text-align: left;
+}
+
+.liseret
+{
+	width: 70px;
+	height: 280px;
 }
 
 .monimage
@@ -47,3 +50,21 @@ p
 	vertical-align: top;
 	float: right;
 }
+
+#cv
+{
+	display: flex;
+	justify-content: space-around;
+	/*margin: auto;*/
+}
+
+.experience
+{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+	
+.competences
+{
+	margin-right: 10px;
+}	
