@@ -1,0 +1,49 @@
+/* Définition d'une nouvelle police*/
+@font-face
+{ 
+    font-family: 'cac_champagneregular';
+    src: url('polices/cac_champagne-webfont.eot');
+    src: url('polices/cac_champagne-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/cac_champagne-webfont.woff') format('woff'),
+         url('polices/cac_champagne-webfont.ttf') format('truetype'),
+         url('polices/cac_champagne-webfont.svg#cac_champagneregular') format('svg');
+}
+
+/* Application d'une image de fond*/
+body
+{
+	background-image: url("images/fond2.jpg");
+}
+.liseret
+{
+	width: 70px;
+	height: 310px;
+}
+
+h1
+{
+	text-align: center;
+	
+}
+
+h2
+{
+	font-family: 'cac_champagneregular', serif;
+	color : #A65300;
+	border: 3px black solid;
+	box-shadow: 6px 6px 0px black;
+}
+
+p
+{
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: bold;
+	
+}
+
+.monimage
+{
+	vertical-align: top;
+	float: right;
+}
